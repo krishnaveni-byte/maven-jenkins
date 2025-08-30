@@ -7,7 +7,7 @@ pipeline {
     }
     post { 
 	failure {
-	   mail body: 'Hi krishna', subject: 'The Pipeline failed', to: 'krisraj920@gmail.com'
+	   mail body: 'Hi krishna this is from master branch', subject: 'The Pipeline failed', to: 'krisraj920@gmail.com'
         }
     }
 }
